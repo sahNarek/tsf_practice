@@ -1,0 +1,63 @@
+---
+title: "Analyzing the Impact of Sentiment Analysis on IT Company Stock Prices"
+author: "Narek Sahakyan"
+date: "12-11-2023"
+output: 
+  beamer_presentation:
+    theme: "default"
+    slide_level: 2
+---
+
+```{r, echo=F}
+library(reticulate)
+```
+
+
+# Introduction
+
+## Motivation/Research Question
+
+- Purpose: Examine the influence of sentiment analysis on stock prices of leading IT companies.
+- Focus: Assessing success or failure of major product releases.
+
+## Literature Review
+
+- Key Findings: Summary of trends in IT stock price analysis.
+- Impact: Role of social media sentiment and release post factum on the company's valuation.
+
+# Methodology
+
+## Data Collection and Sentiment Analysis
+
+- Data Gathering: Historical stock price.
+- Techniques: Traditional Time Series forecasting.
+
+## Data Integration and Analysis
+
+- Correlation: Linking sentiment analysis results with stock price data.
+- Methods: IRA analysis and Random Forest Regressor feature importance extractor.
+
+# Data Description
+
+## Main Variables
+
+- Variables: Open Price, Close Price, Low Price, High Price, Adjusted Close Price, Trading Volume.
+
+# Results
+
+## Overview of Findings
+
+- Summary: Key insights from sentiment analysis and stock price correlation.
+
+## Detailed Analysis
+
+- Patterns and Trends: Detailed examination of findings.
+- Case Studies: Discussion on specific relevant cases.
+
+# Conclusion
+
+## Implications and Potential
+
+- Summary: Main findings and implications for IT company investors and stakeholders.
+- Future of Sentiment Analysis: Potential as a tool for stock market prediction and understanding.
+

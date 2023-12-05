@@ -1,0 +1,526 @@
+Synthesizing 10/10 solutions
+
+=======
+Suggestion 1
+
+library(reticulate)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(ggplot2)
+library(ggthemes)
+library(ggpubr)
+library(reshape2)
+library(magrittr)
+library(forecast)
+library(fpp2)
+library(tseries)
+library(fo
+
+=======
+Suggestion 2
+
+library(reticulate)
+library(knitr)
+library(repr)
+library(tidyverse)
+library(ggplot2)
+library(ggthemes)
+library(gridExtra)
+library(grid)
+library(cowplot)
+library(ggrepel)
+library(ggpubr)
+library(ggcorrplot)
+library(tidytext)
+library(wordcloud)
+library(tm)
+library(stringr)
+library(dplyr)
+library(lubridate)
+library(readxl)
+library(caret)
+library(glmnet)
+library(rpart)
+library(rpart.plot)
+library(randomForest)
+library(e1071)
+library(gbm)
+library(xgboost)
+library(caret)
+library(kableExtra)
+library(knitr)
+library(kableExtra)
+library(quantmod)
+library(xts)
+library(forecast)
+library(tseries)
+lib
+
+=======
+Suggestion 3
+
+library(reticulate)
+use_python("/usr/local/bin/python3")
+```
+
+```{python}
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from datetime import datetime
+from statsmodels.tsa.stattools import adfuller, kpss
+from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
+from statsmodels.tsa.arima.model import ARIMA
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+from sklearn.metrics  import mean_squared_error
+from statsmodels.tsa.seasonal import seasonal_decompose
+from statsmodels.tsa.holtwinters import ExponentialSmoothing
+from statsmodels.tsa.holtwinters import SimpleExpSmoothing
+from arch import arch_model
+import warnings
+import statsmodels.api as sm
+import scipy.stats as stats
+warnings.filterwarnings("ignore")
+import statsmodels.api as sm
+from statsmodels.tsa.arima.model import ARIMA
+import matplotlib.pyplot as plt
+import scipy.stats as stats
+import pmdarima as pm
+import yfinance as yf
+
+=======
+Suggestion 4
+
+library(reticulate)
+use_python("/usr/local/bin/python3")
+```
+
+```{python}
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from datetime import datetime
+from statsmodels.tsa.stattools import adfuller, kpss
+from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
+from statsmodels.tsa.arima.model import ARIMA
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+from sklearn.metrics  import mean_squared_error
+from statsmodels.tsa.seasonal import seasonal_decompose
+from statsmodels.tsa.holtwinters import ExponentialSmoothing
+from statsmodels.tsa.holtwinters import SimpleExpSmoothing
+from arch import arch_model
+import warnings
+import statsmodels.api as sm
+import scipy.stats as stats
+warnings.filterwarnings("ignore")
+import statsmodels.api as sm
+from statsmodels.tsa.arima.model import ARIMA
+import matplotlib.pyplot as plt
+import scipy.stats as stats
+import pmdarima as pm
+import yfinance as yf
+```
+
+`
+
+=======
+Suggestion 5
+
+library(reticulate)
+use_condaenv("thesis")
+```
+
+```{python}
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from datetime import datetime
+from statsmodels.tsa.stattools import adfuller, kpss
+from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
+from statsmodels.tsa.arima.model import ARIMA
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+from sklearn.metrics  import mean_squared_error
+from statsmodels.tsa.seasonal import seasonal_decompose
+from statsmodels.tsa.holtwinters import ExponentialSmoothing
+from statsmodels.tsa.holtwinters import SimpleExpSmoothing
+from arch import arch_model
+import warnings
+import statsmodels.api as sm
+import scipy.stats as stats
+warnings.filterwarnings("ignore")
+import statsmodels.api as sm
+from statsmodels.tsa.arima.model import ARIMA
+import matplotlib.pyplot as plt
+import scipy.stats as stats
+import pmdarima as pm
+import yfinance as yf
+```
+
+```{r}
+# Load Data
+msft = yf.download("MSFT", start="2019-01-01", end="2020-12-31")
+msft.to_csv("msft.csv")
+msft = pd.read_csv("msft.csv")
+msft = msft.drop(columns =
+
+=======
+Suggestion 6
+
+library(reticulate)
+use_condaenv("thesis")
+```
+
+```{python}
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from datetime import datetime
+from statsmodels.tsa.stattools import adfuller, kpss
+from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
+from statsmodels.tsa.arima.model import ARIMA
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+from sklearn.metrics  import mean_squared_error
+from statsmodels.tsa.seasonal import seasonal_decompose
+from statsmodels.tsa.holtwinters import ExponentialSmoothing
+from statsmodels.tsa.holtwinters import SimpleExpSmoothing
+from arch import arch_model
+import warnings
+import statsmodels.api as sm
+import scipy.stats as stats
+warnings.filterwarnings("ignore")
+import statsmodels.api as sm
+from statsmodels.tsa.arima.model import ARIMA
+import matplotlib.pyplot as plt
+import scipy.stats as stats
+import pmdarima as pm
+import yfinance as yf
+```
+
+=======
+Suggestion 7
+
+library(reticulate)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(xtable)
+library(kableExtra)
+library(tidytext)
+library(tm)
+library(wordcloud2)
+library(ggplot2)
+library(ggthemes)
+library(plotly)
+library(dplyr)
+library(tidytext)
+library(scales)
+library(stringr)
+library(lubridate)
+library(ggrepel)
+library(reshape2)
+library(ggpubr)
+library(ggthemes)
+library(ggrepel)
+library(ggcorrplot)
+library(reshape2)
+library(ggpubr)
+library(ggthemes)
+library(ggrepel)
+library(ggcorrplot)
+library(ggcorrplot)
+library(reshape2)
+library(ggpubr)
+library(ggthemes)
+library(ggrepel)
+library(ggcorrplot)
+library(tidyverse)
+library(tidytext)
+library(tm)
+library(wordcloud2)
+library(ggplot2)
+library(ggthemes)
+library(plotly)
+library(dplyr)
+library(tidytext)
+library(scales)
+library(stringr)
+library(lubridate)
+library(ggrepel)
+library(reshape2)
+library(ggpubr)
+library(ggthemes)
+library(ggrepel)
+library(ggcorrplot)
+library(reshape2)
+library(ggpubr)
+library(ggthemes)
+library(ggrepel)
+library(ggcorrplot)
+library(ggcorrplot)
+library(reshape2)
+library(ggpubr)
+library(ggthemes)
+library(ggrepel)
+library(ggcorrplot)
+library(tidyverse)
+library(tidytext)
+library(tm)
+library(wordcloud2)
+library(ggplot2)
+library(ggthemes)
+library(plotly)
+library(dplyr)
+library(tidytext)
+library(scales)
+library(stringr)
+library(lubridate)
+library(ggrepel)
+library(reshape2)
+library(ggpubr)
+library(ggthemes)
+library(ggrepel)
+library(ggcorrplot)
+library(reshape2)
+library(ggpubr)
+library(ggthemes)
+library(ggrepel)
+library(ggcorrplot)
+library(ggcorrplot)
+library(reshape2)
+library(ggpubr)
+library(ggthemes)
+library(ggrepel)
+library(ggcorrplot)
+library(tidyverse)
+library(tidytext)
+library(tm)
+library(wordcloud2)
+library(ggplot2)
+library(ggthemes)
+library(plotly)
+
+=======
+Suggestion 8
+
+library(reticulate)
+use_python("/usr/local/bin/python3")
+```
+
+```{python}
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from datetime import datetime
+from statsmodels.tsa.stattools import adfuller, kpss
+from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
+from statsmodels.tsa.arima.model import ARIMA
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+from sklearn.metrics  import mean_squared_error
+from statsmodels.tsa.seasonal import seasonal_decompose
+from statsmodels.tsa.holtwinters import ExponentialSmoothing
+from statsmodels.tsa.holtwinters import SimpleExpSmoothing
+from arch import arch_model
+import warnings
+import statsmodels.api as sm
+import scipy.stats as stats
+warnings.filterwarnings("ignore")
+import statsmodels.api as sm
+from statsmodels.tsa.arima.model import ARIMA
+import matplotlib.pyplot as plt
+import scipy.stats as stats
+import pmdarima as pm
+import yfinance as yf
+import seaborn as sns
+from scipy import stats
+import matplotlib.pyplot as plt
+import matplotlib.style as style
+from sklearn.metrics import mean_squared_error
+import plotly.express as px
+import plotly.graph_objects as go
+from sklearn.metrics import mean_squared_error
+from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import r2_score
+from sklearn.metrics import explained_variance_score
+from sklearn.metrics import max_error
+from sklearn.metrics import mean_squared_log_error
+from sklearn.metrics import median_absolute_error
+from sklearn.metrics import mean_poisson_deviance
+from sklearn.metrics import mean_gamma_deviance
+from sklearn.metrics import mean_tweedie_deviance
+from sklearn.metrics import mean_absolute_percentage_error
+from sklearn.metrics import mean_squared_log_error
+from sklearn.metrics import median_absolute_error
+from sklearn.metrics import mean_squared_error
+from sklearn.metrics import r2_score
+from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import explained_variance_score
+from sklearn.metrics import max_error
+from sklearn.metrics import mean_squared_log_error
+from sklearn.metrics import median_absolute_error
+from sklearn.metrics import mean_poisson_deviance
+from sklearn.metrics import mean_gamma_deviance
+from sklearn.metrics import mean_tweedie_deviance
+from sklearn.metrics import mean_absolute_percentage_error
+from sklearn.metrics import mean_squared_log_error
+from sklearn.metrics import median_absolute_error
+from sklearn.metrics import mean_squared_error
+
+=======
+Suggestion 9
+
+library(reticulate)
+use_python("/usr/local/bin/python3")
+```
+
+```{python}
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from datetime import datetime
+from statsmodels.tsa.stattools import adfuller, kpss
+from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
+from statsmodels.tsa.arima.model import ARIMA
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+from sklearn.metrics  import mean_squared_error
+from statsmodels.tsa.seasonal import seasonal_decompose
+from statsmodels.tsa.holtwinters import ExponentialSmoothing
+from statsmodels.tsa.holtwinters import SimpleExpSmoothing
+from arch import arch_model
+import warnings
+import statsmodels.api as sm
+import scipy.stats as stats
+warnings.filterwarnings("ignore")
+import statsmodels.api as sm
+from statsmodels.tsa.arima.model import ARIMA
+import matplotlib.pyplot as plt
+import scipy.stats as stats
+import pmdarima as pm
+import yfinance as yf
+```
+
+```{python}
+def get_stock_data(symbol, start_date, end_date):
+    df = yf.download(symbol, start_date, end_date)
+    df = df.reset_index()
+    df = df.dropna()
+    return df
+```
+
+```{python}
+def get_sentiment_data(filename):
+    df = pd.read_csv(filename)
+    return df
+```
+
+```{python}
+def get_merged_data(symbol, start_date, end_date, filename):
+    stock_df = get_stock_data(symbol, start_date, end_date)
+    sentiment_df = get_sentiment_data(filename)
+    stock_df['Date'] = pd.to_datetime(stock_df['Date']).dt.date
+    sentiment_df['Date'] = pd.to_datetime(sentiment_df['Date']).dt.date
+    merged_df = pd.merge(stock_df, sentiment_df, how='inner', on='Date')
+    merged_df['Open'] = merged_df['Open'].astype(float)
+    merged_df['Close'] = merged_df['Close'].astype(float)
+    merged_df['Low'] = merged_df['Low'].astype(float)
+    merged_df['High'] = merged_df['High'].astype(float)
+    merged_df['Adj Close'] = merged_df['Adj Close'].astype(float)
+    merged_df['Volume'] = merged_df['Volume'].astype(float)
+    merged_df['Sentiment'] = merged_df
+
+=======
+Suggestion 10
+
+library(reticulate)
+use_python("/usr/bin/python3")
+```
+
+# Introduction
+
+## Motivation/Research Question
+
+- Purpose: Examine the influence of sentiment analysis on stock prices of leading IT companies.
+- Focus: Assessing success or failure of major product releases.
+
+## Literature Review
+
+- Key Findings: Summary of trends in IT stock price analysis.
+- Impact: Role of social media sentiment and release post factum on the company's valuation.
+
+# Methodology
+
+## Data Collection and Sentiment Analysis
+
+- Data Gathering: Historical stock price.
+- Techniques: Traditional Time Series forecasting.
+
+## Data Integration and Analysis
+
+- Correlation: Linking sentiment analysis results with stock price data.
+- Methods: IRA analysis and Random Forest Regressor feature importance extractor.
+
+# Data Description
+
+## Main Variables
+
+- Variables: Open Price, Close Price, Low Price, High Price, Adjusted Close Price, Trading Volume.
+
+# Results
+
+## Overview of Findings
+
+- Summary: Key insights from sentiment analysis and stock price correlation.
+
+## Detailed Analysis
+
+- Patterns and Trends: Detailed examination of findings.
+- Case Studies: Discussion on specific relevant cases.
+
+# Conclusion
+
+## Implications and Potential
+
+- Summary: Main findings and implications for IT company investors and stakeholders.
+- Future of Sentiment Analysis: Potential as a tool for stock market prediction and understanding.
+
+# Appendix
+
+## Data Collection and Cleaning
+
+- Data Gathering: Historical stock price.
+- Techniques: Traditional Time Series forecasting.
+
+## Data Integration and Analysis
+
+- Correlation: Linking sentiment analysis results with stock price data.
+- Methods: IRA analysis and Random Forest Regressor feature importance extractor.
+
+# Introduction
+
+## Motivation/Research Question
+
+- Purpose: Examine the influence of sentiment analysis on stock prices of leading IT companies.
+- Focus: Assessing success or failure of major product releases.
+
+## Literature Review
+
+- Key Findings: Summary of trends in IT stock price analysis.
+- Impact: Role of social media sentiment and release post factum on the company's valuation.
+
+# Methodology
+
+## Data Collection and Sentiment Analysis
+
+- Data Gathering: Historical stock price.
+- Techniques: Traditional Time Series forecasting.
+
+## Data Integration and Analysis
+
+- Correlation: Linking sentiment analysis results with stock price data.
+- Methods: IRA analysis and Random Forest Regressor feature importance extractor.
+
+# Data Description
+
+## Main Variables
+
+- Variables: Open Price, Close Price, Low Price, High Price, Adjusted Close Price, Trading
