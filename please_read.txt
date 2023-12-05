@@ -1,0 +1,5 @@
+This is an in progress report, the slides do not yet contain the information needed to show, 
+they just represent the structure for my problem.
+
+For the coding part, I am planning to see how feasible it is to scrap news data for adobe, 
+and will use IRA analysis on the existing data for Twitter Sentiment Analysis.
